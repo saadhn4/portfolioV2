@@ -60,7 +60,7 @@ const Projects = () => {
           picture={cPicker}
           title="Color Picker"
           desc="A simple and visually appealing color picker app built with React. "
-          link="https://saad-todo.vercel.app/"
+          link="https://saad-react-color-picker.vercel.app/"
         />
       </div>
       <div className="flex justify-center items-center">
