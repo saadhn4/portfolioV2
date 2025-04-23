@@ -48,7 +48,7 @@ const Projects = () => {
           picture={calc}
           title="Calculator"
           desc="Caclculator built with HTML, CSS, and JavaScript."
-          link="https://game.saadhn.xyz/"
+          link="https://math.saadhn.xyz/"
         />
             <ProjectCard
           picture={todo}
