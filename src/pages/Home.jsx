@@ -89,13 +89,13 @@ const Home = () => {
           <ProjectCard
             picture={twitterAppPic}
             title="Twitter Clone"
-            desc="Restaurant Review Application built with MERN stack."
+            desc="A simple Twitter-style mini posting app built using React."
             link="https://tweet.saadhn.xyz/"
           />
           <ProjectCard
             picture={theRuhsPic}
             title="The Ruhs"
-            desc="A simple Twitter-style mini posting app built using React."
+            desc="A custom website built from scratch to showcase the RUHS brand online."
             link="https://theruhs.vercel.app/"
           />
         </div>
