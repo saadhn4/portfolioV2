@@ -6,13 +6,15 @@ import Projects from "./pages/Projects";
 
 const App = () => {
   return (
-    <Router>
-      <Navbar/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
-    </Router>
+    <div className="container mx-auto px-4 overflow-x-hidden">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </Router>
+    </div>
   );
 };
 

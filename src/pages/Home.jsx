@@ -72,8 +72,8 @@ const Home = () => {
         />
       </section>
       <section className="md:pt-[30px] pt-5 pb-5">
-        <h1 className="text-3xl mb-4 font-semibold">Projects</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 md:place-items-center">
+        <h1 className="text-3xl mb-8 font-semibold">Projects</h1>
+        <div className="flex flex-wrap justify-center gap-x-20 gap-y-5 place-items-center md:place-items-start">
           <ProjectCard
             picture={eatSure}
             title="EatSure"

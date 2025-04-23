@@ -12,8 +12,8 @@ import cPicker from "../assets/color-picker.png";
 const Projects = () => {
   return (
     <section className="md:pt-[30px] pt-5 pb-5">
-      <h1 className="text-3xl mb-6 font-semibold md:text-center">Projects</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 md:place-items-center">
+      <h1 className="text-3xl mb-6 font-semibold text-center md:text-start">Projects</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 place-items-center">
         <ProjectCard
           picture={eatSure}
           title="EatSure"
