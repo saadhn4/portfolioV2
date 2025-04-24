@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <section className="md:pt-[30px] pt-5 pb-5">
       <h1 className="text-3xl mb-6 font-semibold text-center md:text-start">Projects</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 place-items-center">
+      <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-x-20 gap-y-4">
         <ProjectCard
           picture={eatSure}
           title="EatSure"
