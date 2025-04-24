@@ -1,22 +1,27 @@
 import React from "react";
+import { motion } from "framer-motion";
 
-const ProjectCard = ({ picture, title, desc,link }) => {
+const ProjectCard = ({ picture, title, desc, link }) => {
   return (
-    <div className="w-[300px] h-[320px] pb-4">
-      <a href={link} target="_blank">
+    <motion.div
+      whileHover={{ scale: 1.03 }}
+      whileTap={{ scale: 0.97 }}
+      className="w-[300px] h-[320px] pb-4"
+    >
+      <a href={link} target="_blank" rel="noopener noreferrer">
         <div className="top">
           <img
             src={picture}
-            alt="website-img"
+            alt={title}
             className="w-[300px] h-[200px] object-cover object-top rounded-lg block"
           />
         </div>
         <div className="bottom mt-4">
-          <p className="text-lg leading-tight m-0">{title}</p>
-          <p className="text-gray-500 leading-tight mt-1 m-0">{desc}</p>
+          <p className="text-lg leading-tight m-0 text-white">{title}</p>
+          <p className="text-gray-500 leading-tight mt-1 m-0 text-sm">{desc}</p>
         </div>
       </a>
-    </div>
+    </motion.div>
   );
 };
 
