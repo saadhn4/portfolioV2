@@ -12,7 +12,9 @@ import cPicker from "../assets/color-picker.png";
 const Projects = () => {
   return (
     <section className="md:pt-[30px] pt-5 pb-5">
-      <h1 className="text-3xl mb-6 font-semibold text-center md:text-start">Projects</h1>
+      <h1 className="text-3xl mb-6 font-semibold text-center md:text-start">
+        Projects
+      </h1>
       <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-x-20 gap-y-4">
         <ProjectCard
           picture={eatSure}
@@ -38,25 +40,25 @@ const Projects = () => {
           desc="A custom website built from scratch to showcase the RUHS brand online."
           link="https://theruhs.vercel.app/"
         />
-          <ProjectCard
+        <ProjectCard
           picture={rpsGame}
           title="Rock Paper Scissors"
           desc="A Rock, Paper, Scissors game built with HTML, CSS, and JavaScript."
           link="https://game.saadhn.xyz/"
         />
-            <ProjectCard
+        <ProjectCard
           picture={calc}
           title="Calculator"
           desc="Caclculator built with HTML, CSS, and JavaScript."
           link="https://math.saadhn.xyz/"
         />
-            <ProjectCard
+        <ProjectCard
           picture={todo}
           title="To-Do-List"
           desc="A simple, interactive To-Do List web application built with HTML, CSS, and JavaScript."
           link="https://saad-todo.vercel.app/"
         />
-              <ProjectCard
+        <ProjectCard
           picture={cPicker}
           title="Color Picker"
           desc="A simple and visually appealing color picker app built with React. "
@@ -64,8 +66,10 @@ const Projects = () => {
         />
       </div>
       <div className="flex justify-center items-center">
-          <a href="https://github.com/saadhn4" target="_blank">More on GitHub</a>
-        </div>
+        <a href="https://github.com/saadhn4" target="_blank">
+          More on GitHub
+        </a>
+      </div>
     </section>
   );
 };
