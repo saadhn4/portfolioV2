@@ -8,6 +8,7 @@ import rpsGame from "../assets/rock-paper-scissors.png";
 import calc from "../assets/calculator.png";
 import todo from "../assets/to-do-app.png";
 import cPicker from "../assets/color-picker.png";
+import weather from "../assets/weather.png";
 
 const Projects = () => {
   return (
@@ -34,6 +35,12 @@ const Projects = () => {
           desc="A simple Twitter-style mini posting app built using React."
           link="https://tweet.saadhn.xyz/"
         />
+          <ProjectCard
+          picture={weather}
+          title="Weather App"
+          desc="React-based weather app that fetches current weather data using the OpenWeatherMap API."
+          link="https://saad-weather.vercel.app/"
+        />
         <ProjectCard
           picture={theRuhsPic}
           title="The Ruhs"
@@ -58,12 +65,7 @@ const Projects = () => {
           desc="A simple, interactive To-Do List web application built with HTML, CSS, and JavaScript."
           link="https://saad-todo.vercel.app/"
         />
-        <ProjectCard
-          picture={cPicker}
-          title="Color Picker"
-          desc="A simple and visually appealing color picker app built with React. "
-          link="https://saad-react-color-picker.vercel.app/"
-        />
+      
       </div>
       <div className="flex justify-center items-center">
         <a href="https://github.com/saadhn4" target="_blank">
