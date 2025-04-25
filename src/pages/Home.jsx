@@ -8,6 +8,7 @@ import eatSure from "../assets/eat-sure-website.png";
 import gitFind from "../assets/git-find.png";
 import theRuhsPic from "../assets/the-ruhs.png";
 import twitterAppPic from "../assets/twitter-app.png";
+import goat from "../assets/goat2.jpeg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -88,7 +89,7 @@ const Home = () => {
           <ProjectCard picture={eatSure} title="EatSure" desc="Restaurant Review Application built with MERN stack." link="https://food.saadhn.xyz/" />
           <ProjectCard picture={gitFind} title="GitHub Finder" desc="Search GitHub user profiles using the GitHub REST API." link="https://github-finder-topaz.vercel.app/" />
           <ProjectCard picture={twitterAppPic} title="Twitter Clone" desc="A simple Twitter-style mini posting app built using React." link="https://tweet.saadhn.xyz/" />
-          <ProjectCard picture={theRuhsPic} title="The Ruhs" desc="A custom website built from scratch to showcase the RUHS brand online." link="https://theruhs.vercel.app/" />
+          <ProjectCard picture={goat} title="Cat Generator" desc="Fun React app that fetches and displays a random cat image using the Cataas API." link="https://theruhs.vercel.app/" />
         </div>
         <div className="flex justify-center items-center mt-4">
           <Link to="/projects">More</Link>
