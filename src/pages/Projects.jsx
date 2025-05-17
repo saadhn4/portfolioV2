@@ -21,7 +21,7 @@ const Projects = () => {
           picture={eatSure}
           title="EatSure"
           desc="Restaurant Review Application built with MERN stack."
-          link="https://food.saadhn.xyz/"
+          link="https://github.com/saadhn4/capstone-fr"
         />
         <ProjectCard
           picture={gitFind}
@@ -33,7 +33,7 @@ const Projects = () => {
           picture={twitterAppPic}
           title="Twitter Clone"
           desc="A simple Twitter-style mini posting app built using React."
-          link="https://tweet.saadhn.xyz/"
+          link="https://saad-twitter-clone.vercel.app/"
         />
           <ProjectCard
           picture={weather}
@@ -51,13 +51,13 @@ const Projects = () => {
           picture={rpsGame}
           title="Rock Paper Scissors"
           desc="A Rock, Paper, Scissors game built with HTML, CSS, and JavaScript."
-          link="https://game.saadhn.xyz/"
+          link="https://saad-rock-paper-scissors.vercel.app/"
         />
         <ProjectCard
           picture={calc}
           title="Calculator"
           desc="Caclculator built with HTML, CSS, and JavaScript."
-          link="https://math.saadhn.xyz/"
+          link="https://saad-js-calculator.vercel.app//"
         />
         <ProjectCard
           picture={todo}

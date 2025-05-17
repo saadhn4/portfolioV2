@@ -6,10 +6,12 @@ import cfiLogo from "../assets/cfi-logo.png";
 import ruhsLogo from "../assets/the-ruhs-logo.png";
 import eatSure from "../assets/eat-sure-website.png";
 import gitFind from "../assets/git-find.png";
-import theRuhsPic from "../assets/the-ruhs.png";
+import heroPic from "../assets/cat-js.jpg";
 import twitterAppPic from "../assets/twitter-app.png";
 import goat from "../assets/goat2.jpeg";
+
 import { Link } from "react-router-dom";
+
 
 const Home = () => {
   return (
@@ -22,7 +24,7 @@ const Home = () => {
       >
         <div className="left">
           <img
-            src="https://i.pinimg.com/736x/b3/25/f6/b325f69e199b6d6e8d6808129e6d7aa9.jpg"
+            src={heroPic}
             alt="hero-pic"
             className="w-60 h-60 rounded-2xl"
           />
@@ -86,9 +88,9 @@ const Home = () => {
       >
         <h1 className="text-3xl mb-8 font-semibold">Projects</h1>
         <div className="flex flex-wrap justify-center gap-x-20 gap-y-5">
-          <ProjectCard picture={eatSure} title="EatSure" desc="Restaurant Review Application built with MERN stack." link="https://food.saadhn.xyz/" />
+          <ProjectCard picture={eatSure} title="EatSure" desc="Restaurant Review Application built with MERN stack." link="https://github.com/saadhn4/capstone-fr" />
           <ProjectCard picture={gitFind} title="GitHub Finder" desc="Search GitHub user profiles using the GitHub REST API." link="https://github-finder-topaz.vercel.app/" />
-          <ProjectCard picture={twitterAppPic} title="Twitter Clone" desc="A simple Twitter-style mini posting app built using React." link="https://tweet.saadhn.xyz/" />
+          <ProjectCard picture={twitterAppPic} title="Twitter Clone" desc="A simple Twitter-style mini posting app built using React." link="https://saad-twitter-clone.vercel.app//" />
           <ProjectCard picture={goat} title="Cat Generator" desc="Fun React app that fetches and displays a random cat image using the Cataas API." link="https://cat-api-phi.vercel.app/" />
         </div>
         <div className="flex justify-center items-center mt-4">
