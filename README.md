@@ -17,4 +17,3 @@ A personal developer portfolio built using **React**, **TailwindCSS** and **Reac
 
 - **Frontend**: React, Tailwind CSS
 - **Routing**: React Router
-- **Backend**: NodeJS (for Deployment)
