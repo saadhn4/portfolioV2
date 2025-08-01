@@ -9,6 +9,7 @@ import gitFind from "../assets/git-find.png";
 import heroPic from "../assets/cat.png";
 import twitterAppPic from "../assets/twitter-app.png";
 import goat from "../assets/goat2.jpeg";
+import expenseTracker from "../assets/expense.png"
 
 import { Link } from "react-router-dom";
 
@@ -109,10 +110,10 @@ const Home = () => {
             link="https://saad-twitter-clone.vercel.app//"
           />
           <ProjectCard
-            picture={goat}
-            title="Cat Generator"
-            desc="Fun React app that fetches and displays a random cat image using the Cataas API."
-            link="https://cat-api-phi.vercel.app/"
+            picture={expenseTracker}
+            title="Expense Tracker"
+            desc="A clean and simple expense tracking app built with React and Tailwind CSS."
+            link="https://expense-tracker-weld-sigma.vercel.app/"
           />
         </div>
         <div className="flex justify-center items-center mt-4">
